@@ -16,8 +16,8 @@ Drop in support 'server.xml' is correct on latest release.  Issues existed in to
 
 ## RELEASES ##
 
-[![tomcat9](http://github-release-version.herokuapp.com/github/tomcat-slf4j-logback/tomcat-slf4j-logback/release.svg?style=flat)](https://github.com/tomcat-slf4j-logback/tomcat-slf4j-logback/releases/tag/tomcat9\(9.0.13\))
-[![Maven central](https://maven-badges.herokuapp.com/maven-central/com.github.tomcat-slf4j-logback/tomcat9-slf4j-logback/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.tomcat-slf4j-logback/tomcat9-slf4j-logback)
+[![tomcat10](http://github-release-version.herokuapp.com/github/tomcat-slf4j-logback/tomcat-slf4j-logback/release.svg?style=flat)](https://github.com/tomcat-slf4j-logback/tomcat-slf4j-logback/releases/tag/tomcat10\(9.0.13\))
+[![Maven central](https://maven-badges.herokuapp.com/maven-central/com.github.tomcat-slf4j-logback/tomcat10-slf4j-logback/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.tomcat-slf4j-logback/tomcat10-slf4j-logback)
 
 ## Quick Start ##
 
@@ -90,7 +90,7 @@ For users to get release, use dependency as follows.
 ```xml
 <dependency>
     <groupId>com.github.tomcat-slf4j-logback</groupId>
-    <artifactId>tomcat9-slf4j-logback</artifactId>
+    <artifactId>tomcat10-slf4j-logback</artifactId>
 	<version>${tomcat.version}</version>
 </dependency>
 ```
