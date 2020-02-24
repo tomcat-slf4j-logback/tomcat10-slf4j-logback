@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Tomcat-Slf4j-Logback (https://github.com/tomcat-slf4j-logback/tomcat9-slf4j-logback/)
+# Tomcat-Slf4j-Logback (https://github.com/tomcat-slf4j-logback/tomcat10-slf4j-logback/)
 #
 # Copyright (c) 2010-2020 Tomcat-Slf4j-Logback.
 #

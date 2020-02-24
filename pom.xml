@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 
-    Tomcat-Slf4j-Logback (https://github.com/tomcat-slf4j-logback/tomcat9-slf4j-logback/)
+    Tomcat-Slf4j-Logback (https://github.com/tomcat-slf4j-logback/tomcat10-slf4j-logback/)
 
     Copyright (c) 2010-2020 Tomcat-Slf4j-Logback.
 
@@ -38,21 +38,21 @@
     </issueManagement>
     <ciManagement>
         <system>travis-ci</system>
-        <url>https://travis-ci.org/tomcat-slf4j-logback/tomcat9-slf4j-logback</url>
+        <url>https://travis-ci.org/tomcat-slf4j-logback/tomcat10-slf4j-logback</url>
     </ciManagement>
 
     <distributionManagement>
         <site>
             <id>gh-pages</id>
-            <name>Tomcat9 Slf4j Logback GitHub Pages</name>
-            <url>git:ssh://git@github.com/tomcat-slf4j-logback/tomcat9-slf4j-logback.git?gh-pages#</url>
+            <name>Tomcat10 Slf4j Logback GitHub Pages</name>
+            <url>git:ssh://git@github.com/tomcat-slf4j-logback/tomcat10-slf4j-logback.git?gh-pages#</url>
         </site>
     </distributionManagement>
 
     <scm>
-        <connection>scm:git:ssh://git@github.com/tomcat-slf4j-logback/tomcat9-slf4j-logback.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com/tomcat-slf4j-logback/tomcat9-slf4j-logback.git</developerConnection>
-        <url>https://github.com/tomcat-slf4j-logback/tomcat9-slf4j-logback</url>
+        <connection>scm:git:ssh://git@github.com/tomcat-slf4j-logback/tomcat10-slf4j-logback.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/tomcat-slf4j-logback/tomcat10-slf4j-logback.git</developerConnection>
+        <url>https://github.com/tomcat-slf4j-logback/tomcat10-slf4j-logback</url>
         <tag>tomcat10-slf4j-logback-10.0.0-M1</tag>
     </scm>
 
