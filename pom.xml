@@ -50,9 +50,9 @@
     </distributionManagement>
 
     <scm>
-        <connection>scm:git:ssh://git@github.com/tomcat-slf4j-logback/tomcat9-slf4j-logback.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com/tomcat-slf4j-logback/tomcat9-slf4j-logback.git</developerConnection>
-        <url>https://github.com/tomcat-slf4j-logback/tomcat9-slf4j-logback</url>
+        <connection>scm:git:ssh://git@github.com/tomcat-slf4j-logback/tomcat10-slf4j-logback.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/tomcat-slf4j-logback/tomcat10-slf4j-logback.git</developerConnection>
+        <url>https://github.com/tomcat-slf4j-logback/tomcat10-slf4j-logback</url>
         <tag>tomcat10-slf4j-logback-10.0.0-M1</tag>
     </scm>
 
