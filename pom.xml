@@ -57,6 +57,11 @@
     </scm>
 
     <properties>
+        <!-- Require java 11 -->
+        <java.version>11</java.version>
+        <java.release.version>11</java.release.version>
+
+        <!-- Config and Tomcat Versions -->
         <config.version>1.2.2</config.version>
         <tomcat.version>10.1.0</tomcat.version>
 
