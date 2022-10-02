@@ -184,7 +184,7 @@
                                 <filter>
                                     <artifact>ch.qos.logback:*</artifact>
                                     <excludes>
-                                        <exclude>META-INF/versions/9/module-info.class</exclude>
+                                        <exclude>module-info.*</exclude>
                                     </excludes>
                                 </filter>
                             </filters>
