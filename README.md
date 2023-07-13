@@ -223,9 +223,9 @@ can be found in conf/logback.xml from github [releases] (https://github.com/tomc
 
 ## Tomcat Customization ##
 
-#### Tomcat 9.0.x ####
+#### Tomcat 10.0.x ####
 
-After unpacking `apache-tomcat-9.0.x.zip` one can run Tomcat by executing `$CATALINA_HOME/bin/startup.sh`. This will cause running
+After unpacking `apache-tomcat-10.0.x.zip` one can run Tomcat by executing `$CATALINA_HOME/bin/startup.sh`. This will cause running
 Tomcat with standard java.util.logging enabled. The standard command line is:
 
     "java" \
