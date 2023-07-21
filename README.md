@@ -218,7 +218,7 @@ Configuration of logback-access doesn't require renamed packages, as the require
 _common class loader_.
 
 Sample `logback.xml` reflecting the configuration from standard `$CATALINA_HOME/conf/logging.properties`
-can be found in conf/logback.xml from github [releases] (https://github.com/tomcat-slf4j-logback/tomcat-slf4j-logback/releases).
+can be found in conf/logback.xml from github [releases](https://github.com/tomcat-slf4j-logback/tomcat-slf4j-logback/releases).
 
 
 ## Tomcat Customization ##
