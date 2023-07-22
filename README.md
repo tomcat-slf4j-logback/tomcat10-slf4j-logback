@@ -115,6 +115,7 @@ This project's main and only goal is to allow the following:
   of logback-access,
 * make possible to use independent configuration of slf4j+logback from all web applications which may carry
   their own slf4j-api, logback-core, and logback-classic in their `WEB-INF/lib` directory.
+* make possible to use [`logstash-logback-encoder`](https://github.com/logfellow/logstash-logback-encoder) for logging in JSON format
 
 Using only Mavens `pom.xml` file, proper source JARs are downloaded from maven repository and unpacked.
 Then all classes are refactored under `org.apache.juli.logging` package/subpackages and then compiled.
@@ -202,18 +203,29 @@ config file, e.g.:
         </root>
     </configuration>
 
+Alternatively, you can use bundled Logstash encoder for logging in JSON format:
+
+    <configuration>
+        <appender name="CONSOLE" class="org.apache.juli.logging.ch.qos.logback.core.ConsoleAppender">
+            <encoder class="org.apache.juli.logging.net.logstash.logback.encoder.LogstashEncoder" />
+        </appender>
+        <root level="INFO">
+            <appender-ref ref="CONSOLE" />
+        </root>
+    </configuration>
+
 Configuration of logback-access doesn't require renamed packages, as the required JARs are loaded from
 _common class loader_.
 
 Sample `logback.xml` reflecting the configuration from standard `$CATALINA_HOME/conf/logging.properties`
-can be found in conf/logback.xml from github [releases] (https://github.com/tomcat-slf4j-logback/tomcat-slf4j-logback/releases).
+can be found in conf/logback.xml from github [releases](https://github.com/tomcat-slf4j-logback/tomcat-slf4j-logback/releases).
 
 
 ## Tomcat Customization ##
 
-#### Tomcat 9.0.x ####
+#### Tomcat 10.0.x ####
 
-After unpacking `apache-tomcat-9.0.x.zip` one can run Tomcat by executing `$CATALINA_HOME/bin/startup.sh`. This will cause running
+After unpacking `apache-tomcat-10.0.x.zip` one can run Tomcat by executing `$CATALINA_HOME/bin/startup.sh`. This will cause running
 Tomcat with standard java.util.logging enabled. The standard command line is:
 
     "java" \
