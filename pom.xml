@@ -62,13 +62,13 @@
         <java.release.version>11</java.release.version>
 
         <!-- Config and Tomcat Versions -->
-        <config.version>1.3.1</config.version>
+        <config.version>1.4.0-SNAPSHOT</config.version>
         <tomcat.version>10.1.13</tomcat.version>
 
         <!-- Override for Latest Versions -->
         <logback.version>1.4.8</logback.version>
         <slf4j.version>2.0.7</slf4j.version>
-        
+
         <!-- Logstash Encoder and deps versions -->
         <logstash.version>7.4</logstash.version>
         <jackson.version>2.15.2</jackson.version>
@@ -81,12 +81,60 @@
             <version>${tomcat.version}</version>
             <optional>true</optional>
         </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>${slf4j.version}</version>
+            <scope>compile</scope>
+            <optional>true</optional>
+        </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>jcl-over-slf4j</artifactId>
+            <version>${slf4j.version}</version>
+            <scope>compile</scope>
+            <optional>true</optional>
+        </dependency>
+
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-core</artifactId>
+            <version>${logback.version}</version>
+            <scope>compile</scope>
+            <optional>true</optional>
+        </dependency>
+
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>${logback.version}</version>
+            <scope>compile</scope>
+            <optional>true</optional>
+            <exclusions>
+                 <exclusion>
+                      <groupId>com.sun.mail</groupId>
+                      <artifactId>javax.mail</artifactId>
+                 </exclusion>
+            </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-access</artifactId>
+            <version>${logback.version}</version>
+            <scope>compile</scope>
+            <optional>true</optional>
+        </dependency>
+
         <dependency>
             <groupId>net.logstash.logback</groupId>
             <artifactId>logstash-logback-encoder</artifactId>
             <version>${logstash.version}</version>
             <optional>true</optional>
         </dependency>
+
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-core</artifactId>
