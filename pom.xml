@@ -66,8 +66,8 @@
         <tomcat.version>10.1.13</tomcat.version>
 
         <!-- Override for Latest Versions -->
-        <slf4j.version>2.0.7</slf4j.version>
         <logback.version>1.4.11</logback.version>
+        <slf4j.version>2.0.9</slf4j.version>
 
         <!-- Logstash Encoder and deps versions -->
         <logstash.version>7.4</logstash.version>
