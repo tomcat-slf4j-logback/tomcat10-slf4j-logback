@@ -63,7 +63,7 @@
 
         <!-- Config and Tomcat Versions -->
         <config.version>1.4.1</config.version>
-        <tomcat.version>10.1.17</tomcat.version>
+        <tomcat.version>10.1.18</tomcat.version>
 
         <!-- Override for Latest Versions -->
         <logback.version>1.4.14</logback.version>
