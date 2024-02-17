@@ -67,6 +67,7 @@
 
         <!-- Override for Latest Versions -->
         <logback.version>1.5.0</logback.version>
+        <logback-access.version>1.4.14</logback-access.version>
         <slf4j.version>2.0.12</slf4j.version>
 
         <!-- Logstash Json Encoder -->
@@ -115,9 +116,10 @@
         </dependency>
 
         <dependency>
+            <!-- TODO: Group id moving to 'cs.qos.logback-access' -->
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-access</artifactId>
-            <version>${logback.version}</version>
+            <version>${logback-access.version}</version>
             <scope>compile</scope>
             <optional>true</optional>
         </dependency>
