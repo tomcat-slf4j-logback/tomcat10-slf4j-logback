@@ -116,6 +116,7 @@
         </dependency>
 
         <dependency>
+            <!-- TODO: Group id moving to 'cs.qos.logback-access' -->
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-access</artifactId>
             <version>${logback-access.version}</version>
