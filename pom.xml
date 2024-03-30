@@ -62,7 +62,7 @@
         <java.release.version>11</java.release.version>
 
         <!-- Config and Tomcat Versions -->
-        <config.version>1.4.1</config.version>
+        <config.version>1.5.0</config.version>
         <tomcat.version>10.1.20</tomcat.version>
 
         <!-- Override for Latest Versions -->
