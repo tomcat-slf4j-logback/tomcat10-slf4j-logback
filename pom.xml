@@ -68,7 +68,7 @@
         <!-- Override for Latest Versions -->
         <logback.version>1.5.3</logback.version>
         <logback-access.version>2.0.0</logback-access.version>
-        <slf4j.version>2.0.12</slf4j.version>
+        <slf4j.version>2.0.13</slf4j.version>
 
         <!-- Logstash Json Encoder -->
         <jackson.version>2.17.0</jackson.version>
