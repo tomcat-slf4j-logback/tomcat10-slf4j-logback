@@ -62,12 +62,12 @@
         <java.release.version>11</java.release.version>
 
         <!-- Config and Tomcat Versions -->
-        <config.version>1.5.3</config.version>
+        <config.version>1.6.0</config.version>
         <tomcat.version>10.1.31</tomcat.version>
 
         <!-- Override for Latest Versions -->
         <logback.version>1.5.10</logback.version>
-        <logback-access.version>2.0.3</logback-access.version>
+        <logback-access.version>2.0.4</logback-access.version>
         <slf4j.version>2.0.16</slf4j.version>
 
         <!-- Logstash Json Encoder -->
@@ -117,7 +117,7 @@
 
         <dependency>
             <groupId>ch.qos.logback.access</groupId>
-            <artifactId>tomcat</artifactId>
+            <artifactId>logback-access-tomcat</artifactId>
             <version>${logback-access.version}</version>
             <scope>compile</scope>
             <optional>true</optional>
