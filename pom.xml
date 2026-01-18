@@ -126,7 +126,7 @@
         <tomcat.version>10.1.50</tomcat.version>
 
         <!-- Override for Latest Versions -->
-        <logback.version>1.5.24</logback.version>
+        <logback.version>1.5.25</logback.version>
         <logback-access.version>2.0.8</logback-access.version>
         <slf4j.version>2.0.17</slf4j.version>
 
