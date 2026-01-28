@@ -123,7 +123,7 @@
 
         <!-- Config and Tomcat Versions -->
         <config.version>1.7.0</config.version>
-        <tomcat.version>10.1.50</tomcat.version>
+        <tomcat.version>10.1.52</tomcat.version>
 
         <!-- Override for Latest Versions -->
         <logback.version>1.5.26</logback.version>
