@@ -122,7 +122,7 @@
 
         <!-- Override for Latest Versions -->
         <logback.version>1.5.31</logback.version>
-        <logback-access.version>2.0.10</logback-access.version>
+        <logback-access.version>2.0.11</logback-access.version>
         <slf4j.version>2.0.17</slf4j.version>
 
         <!-- Logstash Json Encoder -->
